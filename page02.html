@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<title>Page 02</title>	
+	</head>
+	<body>
+		<header>
+			topo
+			<nav>
+				Quem somos | Fale conosco
+			</nav>
+		</header>
+		<article>
+			<h1>Título da notícia</h1>
+			<p>conteúdo da notícia</p>
+		</article>
+		<section>
+			<h3>Newsletter</h3>
+			<p>Informe seu e-mail para receber nossas novidades</p>
+			<p><input type="email"></p>
+		</section>
+		<section>
+			<h3>Cadastre-se</h3>
+			<form action="" method="POST">
+				<p>
+					<label for="nome">Nome</label><br>
+					<input type="text" name="nome" placeholder="Informe seu nome">
+				</p>
+				<p>
+					<label for="nascimento">Data de nascimento</label><br>
+					<input type="date" name="nascimento" >
+				</p>
+				<p>
+					<label for="hora">Hora do cadastro</label><br>
+					<input type="time" name="hora" >
+				</p>
+				<p>
+					<label for="idade">Idade</label><br>
+					<input type="number" name="idade">
+				</p>
+				<p>
+					<label for="areas">Áreas de interesse</label><br>
+					<input type="checkbox" name="areas" value="web"> Web <br>
+					<input type="checkbox" name="areas" value="IA"> Inteligência artificial<br>
+					<input type="checkbox" name="areas" value="music"> Música
+				</p>	
+				<p>
+					<label for="">Sexo</label><br>
+					<input type="radio" name="sexo" value="M"> Masculino <br>
+					<input type="radio" name="sexo" value="F"> Feminino
+				</p>
+				<p>
+					<label for="cidade">Selecione sua cidade</label><br>
+					<select name="cidade" >
+						<option value="1">Imperatriz</option>
+						<option value="2">Bananal</option>
+						<option value="3">Gramado</option>
+					</select>
+				</p>
+				<p>
+					<label for="bio">Mini-biografia</label><br>
+					<textarea name="bio" cols="80" rows="20"></textarea>
+				</p>
+				<p>
+					<input type="reset" value="limpar">
+					<input type="submit" value="enviar">
+				</p>
+			</form>
+		</section>
+		<footer>
+			rodapé
+		</footer>
+	</body>
+</html>
